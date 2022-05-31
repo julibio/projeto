@@ -1,0 +1,14 @@
+body { background-color: lightcyan;
+}
+
+td {
+    height: 50px;
+    vertical-align: bottom;
+}
+
+tr:hover {background-color: #ca8888}
+
+th {
+    background-color: #4CAF50;
+    color: white;
+}

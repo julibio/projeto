@@ -1,0 +1,9 @@
+{% extends 'livro/base.html' %}
+{% block body %}
+<form method='POST'>
+    {% csrf_token %}
+    <h2> Tem certeza que quer apagar o Livro: {{ item.item_nome }}</h2>
+    <button type='submit'> Confirma</button>
+</form>
+{% endblock %} 
+
